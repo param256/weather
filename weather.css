@@ -1,0 +1,84 @@
+.weather__main {
+	display: block;
+	line-height: 1.25;
+	color: #000;
+	font-family: 'YS Text','Helvetica Neue',Arial,sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 20px 0px 0 20px;
+	width: 260px;
+	padding: 8px 4px 4px 20px;
+}
+.weather__title>h1 {
+    display: inline-block;
+    margin-right: 8px;
+}
+h1 {
+	font-size: 123%;
+    font-weight: 500;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.weather__title {
+	display: block;
+	padding: 0 0 0 16px;
+}
+.link {
+	cursor: pointer;
+	text-decoration: none;
+}
+.link_blue {
+	color: #0054b9;
+}
+.link_blue:visited {
+	color: #0054b9;
+}
+.link_blue:hover {
+	color: #c00;
+}
+.weather__content {
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+.link_black {
+	color: #000;
+}
+.link_black:visited {
+	color: #000;
+}
+.link_black:hover {
+	color: #c00;
+}
+.link_nowrap {
+	white-space: nowrap;
+}
+.weather__box {
+	margin-right: 12px;
+	display: flex;
+	align-items: center;
+}
+.weather__icon {
+	display: block;
+	width: 60px;
+    height: 60px;
+    margin: -18px 0px -28px 0px;/*-18 8*/
+    background-size: contain;
+    background-image: url(http://openweathermap.org/img/w/01d.png);
+}
+.weather__temp {
+	display: block;
+	font-size: 28px;
+}
+.weather__forecast {
+	display: block;
+}
+h2 {
+	color: #808080;
+	font-family: 'YS Text','Helvetica Neue',Arial,sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	margin: 30px 0px 0 56px;
+}

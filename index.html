@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8">
+        <title>Weather widget</title>
+        <link rel="stylesheet" href="./weather.css">
+    </head>
+    <body>
+    	<h2>HTML пример</h2>
+    	<main class="weather__main">
+    		<header class="weather__title">
+    			<h1>
+    				<a href="https://yandex.ru/pogoda/simferopol" class="link link_blue">Погода</a>
+    			</h1>
+    		</header>
+    		<content class="weather__content">
+    			<a href="https://yandex.ru/pogoda/simferopol" class="link link_black weather__box">
+	    			<icon class="weather__icon"><!--<img src="http://openweathermap.org/img/w/01d.png">-->
+	    			</icon>
+	    			<title class="weather__temp">
+	    				+8°
+	    			</title>
+    			</a>
+    			<description class="weather__forecast">
+    				<a href="https://yandex.ru/pogoda/simferopol" class="link link_black link_nowrap">Ветер&nbsp;6 км/ч</a><span>,</span> 
+    				<br>
+    				<a  href="https://yandex.ru/pogoda/simferopol" class="link link_black link_nowrap">влажность&nbsp;40%</a>
+    			</description>
+
+    		</content>
+
+    	</main>
+
+    	<!--Шаблонизация-->
+    	<h2>Шаблонизация строками</h2>
+    	<div class="string-template"></div>
+
+    	<h2>Шаблонизация браузером</h2>
+	    <div class="browser-template"></div>
+
+	    <h2>Шаблонизация в два прохода</h2>
+		<div class="two-steps-template"></div>
+
+ 		<script type="text/javascript" src="./weather.js"></script>
+    </body>
+</html>

@@ -27,7 +27,7 @@ function getPositionFail() {
 function loadDataByCurrentPosition(userPosition) {
     var xhr = new XMLHttpRequest(); 
     var key = '1b0a3b86149d2d24c75ec931fadc5dcf';
-    var url = `http://api.openweathermap.org/data/2.5/weather?lat=${userPosition[0]}&lon=${userPosition[1]}&units=metric&appid=${key}`;
+    var url = `//api.openweathermap.org/data/2.5/weather?lat=${userPosition[0]}&lon=${userPosition[1]}&units=metric&appid=${key}`;
 
     xhr.open('GET', url, true);
     xhr.send();
